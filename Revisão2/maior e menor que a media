@@ -16,7 +16,8 @@ public class Program {
     if (b<media)Console.WriteLine(b);
     if (c<media)Console.WriteLine(c);
     if (d<media)Console.WriteLine(d);
-     Console.WriteLine("Numeros maiores ou iguais a media:");
+
+    Console.WriteLine("Numeros maiores ou iguais a media:");
     
     if (a>=media)Console.WriteLine(a);
     if (b>=media)Console.WriteLine(b);
