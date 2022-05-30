@@ -11,6 +11,6 @@ public class Program {
     string[] operador = lista.Split(numeros);
     
     Console.WriteLine(operador[0]);
-    Console.WriteLine(numero[0]);
+    Console.WriteLine(numero[1]);
   }
 }
