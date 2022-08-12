@@ -16,5 +16,5 @@ public class Program {
     double a = Math.Pow(x2 - x1,2) + Math.Pow(y2 - y1,2);
     double b = Math.Sqrt(a);
     Console.WriteLine($"{b:0.0000}");
-  }
+  }//ola
 }

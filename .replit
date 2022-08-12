@@ -1,2 +1,5 @@
 language = "bash"
 run = "mcs -out:Main.exe 'Revisão2/ex12.cs' ; mono Main.exe"
+
+[nix]
+channel = "stable-22_05"
