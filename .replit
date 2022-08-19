@@ -1,5 +1,5 @@
 language = "bash"
-run = "mcs -out:Main.exe 'lista15.08/ex05.cs' ; mono Main.exe"
+run = "mcs -out:Main.exe 'lista15.08/ex06.cs' ; mono Main.exe"
 
 [nix]
 channel = "stable-22_05"

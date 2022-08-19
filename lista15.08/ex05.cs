@@ -8,63 +8,54 @@ public class Program {
     string[] data = Console.ReadLine().Split("/");
     string r = data[1];
     int res = int.Parse(r);
-    int c = 0;
-    while (res < 2022){
-      c+=1;
-      res+=1;
-    }  
     
-    if (c == 1){
+    if (res == 01){
         Console.WriteLine("Janeiro");
         }
       
-    if (c == 2){
+    if (res == 02){
         Console.WriteLine("fevereiro ");
         }
 
-    if (c == 3){
+    if (res == 03){
         Console.WriteLine("março ");
       }
     
-    if (c == 4){
+    if (res == 04){
         Console.WriteLine("abril ");
       }
 
-    if (c == 5){
+    if (res == 05){
         Console.WriteLine("maio ");
       }
 
-    if (c == 6){
+    if (res == 06){
         Console.WriteLine("junho ");
       }
       
-    if (c == 7){
+    if (res == 07){
         Console.WriteLine("julho ");
       }
 
-    if (c == 8){
+    if (res == 8){
         Console.WriteLine("agosto ");
       }
 
-    if (c == 9){
+    if (res == 9){
         Console.WriteLine("setembro ");
       }
 
-    if (c == 10){
+    if (res == 10){
         Console.WriteLine("outubro ");
       }
 
-    if (c == 11){
+    if (res == 11){
         Console.WriteLine("novembro ");
       }
 
-    if (c == 12){
+    if (res == 12){
         Console.WriteLine("dezembro");
       }
-
-      
-      
-      
     }
   }
       
